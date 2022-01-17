@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Puzzle 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body class="bg-dark">
+
+<div class="container my-2">
+    <div class="row text-white bg-secondary">
+        <div class="col">
+            <div class="dropdown">
+                <a class="nav-link fas fa-bars h1" data-toggle="dropdown" data-target="dropdown-target"></a>
+                <ul class="dropdown-menu" aria-labelledby="dropdown_target">
+                    <li><a class="dropdown-item" href="index.html">Home</a></li>
+                    <li><a class="dropdown-item" href="puzzle1.html">Puzzle 1</a></li>
+                    <li><a class="dropdown-item" href="puzzle2.html">Puzzle 2</a></li>
+                    <li><a class="dropdown-item" href="#">Puzzle 3</a></li>
+                    <li><a class="dropdown-item" href="#">Bonus</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col text-right">
+            <h1 class="font-weight-normal">Bootstrap Puzzle 2</h1>
+        </div>
+    </div>
+
+    <div id="carouselExampleSlidesOnly" class="row carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <a class="carousel-item active" href="img/img1.jpg" target="_blank">
+                <img src="img/img1.jpg" class="img-fluid">
+                <span class="carousel-caption h4">Bekijk Boom 1</span>
+            </a>
+            <a class="carousel-item" href="img/img2.jpg" target="_blank">
+                <img src="img/img2.jpg" class="img-fluid">
+                <span class="carousel-caption h4">Bekijk Boom 2</span>
+            </a>
+            <a class="carousel-item" href="img/img3.jpg" target="_blank">
+                <img src="img/img3.jpg" class="img-fluid">
+                <span class="carousel-caption h4">Bekijk Boom 3</span>
+            </a>
+            <a class="carousel-item" href="img/img4.jpg" target="_blank">
+                <img src="img/img4.jpg" class="img-fluid">
+                <span class="carousel-caption h4">Bekijk Boom 4</span>
+            </a>
+            <a class="carousel-item" href="img/img5.jpg" target="_blank">
+                <img src="img/img5.jpg" class="img-fluid">
+                <span class="carousel-caption h4">Bekijk Boom 5</span>
+            </a>
+        </div>
+    </div>
+    
+    <div class="row bg-secondary">
+        <div class="col mx-4">
+            <div class="row bg-white p-2 my-4">
+                <img src="img/item1.jpg" class="col-4 img-fluid p-0">
+                <h2 class="col-8 bg-info text-white d-inline-block">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item1text" class="d-none d-xl-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12"><a href="#item1text" class="btn btn-info float-right">Lees meer &hellip;</a></p>
+            </div>
+            <div class="row bg-white p-2 my-4">
+                <img src="img/item2.jpg" class="col-4 img-fluid p-0">
+                <h2 class="col-8 bg-info text-white d-inline-block">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item2text" class="d-none d-xl-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12"><a href="#item2text" class="btn btn-info float-right">Lees meer &hellip;</a></p>
+            </div>
+            <div class="row bg-white p-2 my-4">
+                <img src="img/item3.jpg" class="col-4 img-fluid p-0">
+                <h2 class="col-8 bg-info text-white d-inline-block">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item3text" class="d-none d-xl-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12"><a href="#item3text" class="btn btn-info float-right">Lees meer &hellip;</a></p>
+            </div>
+        </div>
+
+        <div class="col mx-4">
+            <div class="row bg-white p-2 my-4">
+                <img src="img/item4.jpg" class="col-4 img-fluid p-0">
+                <h2 class="col-8 bg-info text-white d-inline-block">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item4text" class="d-none d-xl-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12"><a href="#item4text" class="btn btn-info float-right">Lees meer &hellip;</a></p>
+            </div>
+            <div class="row bg-white p-2 my-4">
+                <img src="img/item5.jpg" class="col-4 img-fluid p-0">
+                <h2 class="col-8 bg-info text-white d-inline-block">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item5text" class="d-none d-xl-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12"><a href="#item5text" class="btn btn-info float-right">Lees meer &hellip;</a></p>
+            </div>
+            <div class="row bg-white p-2 my-4">
+                <img src="img/item6.jpg" class="col-4 img-fluid p-0">
+                <h2 class="col-8 bg-info text-white d-inline-block">Etiam hendrerit vel sem ac accumsan</h2>
+                <p id="item6text" class="d-none d-xl-block">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nunc lectus, feugiat id ipsum sed, sollicitudin malesuada justo. Nam congue commodo quam, vitae gravida mi. Aliquam erat volutpat. Suspendisse semper, lectus eu accumsan feugiat, nunc nibh euismod turpis, ut suscipit massa nibh at eros. Vivamus vel orci sed libero accumsan egestas. </p>
+                <p class="col-12"><a href="#item6text" class="btn btn-info float-right">Lees meer &hellip;</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="float-right mr-4">
+        <div>
+            <span>Created with:</span>
+            <a href="https://getbootstrap.com/" target="_blank"><img src="img/logo-bootstrap.png"></a>
+            <a href="https://fontawesome.com/" target="_blank"><img src="img/logo-fontawsome.png"></a>
+            <a href="https://w3schools.com/" target="_blank"><img src="img/logo-w3schools.png"></a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
